@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Website URL</title>
+<%= stylesheet_link_tag 'style' %>
+<%= javascript_include_tag 'jquery-1.6.2.min', 'jquery.validate.min' %>
+<%= javascript_include_tag :defaults %>
+
+</head>
+<body id="login-bg"> 
+ 
+
+<div id="login-holder">
+
+	
+	
+<div class="clear"></div>
+	
+	<%= yield %>
+	
+
+
+ 
+	
+	<div id="forgotbox">
+		<div id="forgotbox-text">Please send us your email and we'll reset your password.</div>
+		
+		<div id="forgot-inner"></div>
+		
+		<div class="clear"></div>
+		<a href="" class="back-login">Back to login</a>
+	</div>
+	
+
+</div>
+
+</body>
+</html>
